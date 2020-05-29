@@ -1,0 +1,175 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lexend+Tera&display=swap');
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('fonts/BebasNeue-webfont.eot');
+    src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BebasNeue-webfont.woff') format('woff'),
+         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+	color: #08377c;
+	font-weight: bold;
+}
+h1{
+	font-size: 50px;
+	margin-left: 5%;
+	font-weight: bolder;
+}
+.heading_back{
+	display: inline;
+	width: 100px;
+    position: relative;
+    bottom: 80px;
+    right: 17%;
+}
+
+body{
+	overflow-x: hidden	;
+}
+img{
+	margin-left: 20%;
+	margin-right: auto;
+	width: 5%;
+}
+p,h2{
+	margin-left: 10%;
+	margin-right: 5%;
+}
+h2{
+	font-weight: bold;
+	margin-right: 0;
+}
+#some-div{display: none;}
+@media only screen and (max-width: 960px){
+	#top-head{	
+			height: 60px;
+		}
+	#some-div{
+		display: block;
+	}
+}
+
+#medium{
+	display: none;
+}
+#small{
+	display: block;
+}
+.row{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+
+@media only screen and (max-width: 960px){
+	#medium{
+		display: none;
+	}
+	#small{
+		display: block;
+	}
+	
+}
+
+.fullscr{
+	display: none;
+}
+@media only screen and (min-width: 960px) {
+	
+	.row{
+		margin-top: 2%;
+		font-size: 2.4rem;
+		margin-bottom: 17%;}
+	.show-row{
+		margin-bottom: 17%;}
+	#navbarVSV{
+		position: sticky;}
+	#top-head{
+		height: 90px;}
+	#top-head:hover + .fullscr{
+		display: block;}
+	.fullscr:hover{
+		display: block;}
+	#go-to-top{
+		position: sticky;
+		bottom: 90%;}
+	.hehe{text-align: center;}
+	}
+p{
+	text-align: justify;
+}
+iframe{
+	vertical-align: middle;
+	height: 90%;
+}
+.p_2{
+	font-weight:lighter;
+	margin-top:-13%;
+}
+@media only screen and (min-width: 960px) {
+	.p_2{
+		font-size: 0.5em;
+	}
+}
+@media only screen and (min-width: 1200px) {
+	.p_2{
+		font-size: 0.75em;
+	}
+	h2, .heading_back{
+		padding-top: 70px;
+	}
+	.heading_back{
+		bottom: 150px;
+	}
+}
+@media only screen and (min-width: 1366px) {
+	.p_2{
+		font-size: 0.85em;
+	}
+}
+@media only screen and (min-width: 1800px) {
+	.p_2{
+		font-size: 0.9em;
+	}
+}
+@media only screen and (max-width: 1366px) {
+	.p_2{
+		margin-top: -21%;
+	}
+}
+@media only screen and (max-width: 1200px) {
+	.p_2{
+		margin-top: -13%;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.p_2{margin: 15% 10px 15% 10px;
+		height: 70%;
+		margin-top: -10%;
+	}
+}
+@media only screen and (max-width: 550px) {
+	h2{
+		font-size: 1.8em;
+	}
+}
+#reg_hda{
+	font-size: 1.1em;
+	font-style: oblique;
+}
+
+.video-frame{
+	margin: 15% 0 15% 0;
+	height: 70%;
+}
+
+@media only screen and (max-width: 992px){
+	.video-frame{
+		margin: -13% 5% 0 6%;
+		height: 400px;
+	}
+}
